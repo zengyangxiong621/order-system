@@ -1,5 +1,5 @@
 # order-system
-
+一个基于Vue+VantUI搭建的移动端的点餐系统
 ## Project setup
 ```
 npm install
