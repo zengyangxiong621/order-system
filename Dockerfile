@@ -5,7 +5,7 @@ RUN yarn config set registry https://registry.npm.taobao.org
 RUN yarn install && yarn build
 FROM nginx
 
-EXPOSE 8080
+EXPOSE 80
 WORKDIR /usr/share/nginx/html
 
 COPY --from=builder /usr/src/app/dist .
